@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="ru">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Космические пришельцы похищали меня - сообщение по похищении</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+  <h2>Космические пришельцы похищали меня - сообщение по похищении</h2>
+
+  <p>Расскажите нам о похищении:</p>
+  <form method="post" action="report.php">
+    <label for="firstname">Имя:</label>
+    <input type="text" id="firstname" name="firstname" /><br />
+    <label for="lastname">Фамилия:</label>
+    <input type="text" id="lastname" name="lastname" /><br />
+    <label for="email">Ваш адрес электронной почты:</label>
+    <input type="text" id="email" name="email" /><br />
+    <label for="whenithappened">Когда это произошло?</label>
+    <input type="text" id="whenithappened" name="whenithappened" /><br />
+    <label for="howlong">Как долго вы отстутствовали?</label>
+    <input type="text" id="howlong" name="howlong" /><br />
+    <label for="howmany">Сколько их было?</label>
+    <input type="text" id="howmany" name="howmany" /><br />
+    <label for="aliendescription">Опишите их:</label>
+    <input type="text" id="aliendescription" name="aliendescription" size="32" /><br />
+    <label for="whattheydid">Что они делали с вами?</label>
+    <input type="text" id="whattheydid" name="whattheydid" size="32" /><br />
+    <label for="fangspotted">Видели ли вы мою собаку Фенга?</label>
+    Да <input id="fangspotted" name="fangspotted" type="radio" value="да" />
+    Нет <input id="fangspotted" name="fangspotted" type="radio" value="нет" /><br />
+    <img src="fang.jpg" width="100" height="175"
+      alt="Моя собака Фенг." /><br />
+    <label for="other">Дополнительная информация</label>
+    <textarea id="other" name="other"></textarea><br />
+    <input type="submit" value="Сообщение о похищении" name="submit" />
+  </form>
+</body>
+</html>
